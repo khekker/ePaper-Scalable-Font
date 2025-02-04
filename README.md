@@ -13,4 +13,5 @@ That still didn't help letters like the x and k, so I spent too much time making
 
 Now, to indicate to the program rendering a particular letter as to what to print, I inserted 'control characters'. Normally, the bitmap file of the font contains 0's and 1's to indicate white or black. If the program encounters a 2,3,5 or 9, it will subtract 1 from that number and then print an ellipse in the appropriate spot with the appropriate quadrant displayed. Any other character, other than the above 0,1,2,3,5 or 9, means it is going to be a polygon.
 
-Whether I'll ever actually use it for anything, I don't know, but it was fun playing around with it. Below an image of some of the sizes, from original (barely visible to 64 
+Whether I'll ever actually use it for anything, I don't know, but it was fun playing around with it. Below an image of some of the sizes, from original (barely visible) to 64.
+![Scalable fonts](20250204_121455.jpg)
